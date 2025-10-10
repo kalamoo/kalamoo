@@ -158,7 +158,6 @@
 }
 
 .author__urls-wrapper {
-  position: relative;
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
@@ -244,7 +243,7 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: wrap;  // for wrap the text; or "no-wrap"
   }
 
   a {
